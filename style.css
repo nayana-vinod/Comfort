@@ -4,7 +4,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #boat {
-  margin-top: 5vh;
+  margin-top: 1vh;
 }
 #link {
   display: none;
@@ -16,11 +16,11 @@ body {
 #oh {
   color: #fdb50d;
   font-size: 2em;
-  margin-top: 5vw;
+  margin-top: -0.5vh;
 }
 #sorry {
   color: rgb(253, 253, 179);
-  margin-top: 0vh;
+  margin-top: -2vh;
   margin-bottom: 2vh;
   font-size: 1.5em;
 }
@@ -32,7 +32,7 @@ body {
   background-color: #f88b15;
   border: #37392e 5px solid;
   border-radius: 50px;
-  margin-top: 2vw;
+  margin-top: 2vh;
   padding: 10px 10px;
   margin-right: 20vw;
   margin-left: 20vw;
@@ -45,11 +45,13 @@ body {
   #boat {
   margin-top: 7vh;
 }
+  #sorry{
+    margin-top: 0vh;
+  }
   #oh {
     margin-top: 5vh;
   }
   #try {
-    margin-top: 0vh;
     margin-right: 35vw;
     margin-left: 35vw;
   }
