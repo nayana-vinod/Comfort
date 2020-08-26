@@ -4,7 +4,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #boat {
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
 #link {
   display: none;
@@ -42,6 +42,9 @@ body {
   background-color: #fdb50d;
 }
 @media (min-width: 550px) {
+  #boat {
+  margin-top: 7vh;
+}
   #oh {
     margin-top: 5vh;
   }
