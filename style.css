@@ -5,6 +5,7 @@ body {
 }
 #boat {
   margin-top: 1vh;
+  display: none;
 }
 #link {
   display: none;
@@ -42,9 +43,15 @@ body {
   background-color: #fdb50d;
 }
 @media (min-width: 550px) {
-  #boat {
+  #body {
   margin-top: 7vh;
 }
+  #boat {
+    display: inline;
+  }
+  #boatMobile {
+    display: none;
+  }
   #sorry{
     margin-top: 0vh;
   }
